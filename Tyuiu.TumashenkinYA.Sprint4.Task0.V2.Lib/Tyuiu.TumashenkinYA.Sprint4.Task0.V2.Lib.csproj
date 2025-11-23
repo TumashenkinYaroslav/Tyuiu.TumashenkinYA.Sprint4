@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <Reference Include="tyuiu.cources.programming.interfaces">
-		  <HintPath>..\..\Tyuiu.TumashenkinYA.Sprint3\tyuiu.cources.programming.interfaces.dll</HintPath>
+    <Reference Include="tyuiu.cources.programming.interfaces">
+      <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
   </ItemGroup>
 
