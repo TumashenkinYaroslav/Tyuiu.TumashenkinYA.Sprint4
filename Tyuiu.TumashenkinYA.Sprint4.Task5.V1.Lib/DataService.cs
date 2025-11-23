@@ -5,10 +5,14 @@ namespace Tyuiu.TumashenkinYA.Sprint4.Task5.V1.Lib
     {
         public int[,] Calculate(int[,] matrix)
         {
-            int[,] newMatrix = matrix;
-            for (int i = 0; i < matrix.GetLength(0); ++i)
+           int[,] newMatrix = matrix;
+            int rows = matrix.GetUpperBound(0) + 1;
+            int columns = matrix.Length / rows;
+
+            
+            for (int i = 0; i < rows; i++)
             {
-                for (int j = 0; j < matrix.GetLength(1); ++j)
+                for (int j = 0; j < columns; j++)
                 {
                     if (matrix[i, j] > 0) newMatrix[i, j] = 1;
                 }
